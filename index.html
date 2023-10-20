@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 2</title>
+    <link rel="stylesheet" href="arquivo.css">
+</head>
+<body>
+    <header>Minha página HTML</header>
+    <p style="color: blue;">Aprendendo a criar uma págia web básica</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <p><a href="https://www.example.com">Visite o Example</a></p>
+    <img src="https://i.pinimg.com/originals/06/9c/a5/069ca590262537f9bd42092e50a42703.png" height="150">
+    <br>
+    <table>
+        
+        <tr>
+        <td colsplan="3">A1+B1+C2</td>
+        </tr>
+        
+        <tr>
+        <td rowspan>c</td>
+        <td>c</td>
+        <td>c</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        Nome:<input>
+        <br>
+        <br>
+
+        Senha:<input type="password">
+        <br>
+        <br>
+        <button id="button">confirmar</button>
+        <br>
+    </form>
+    <br>
+    <button onclick="informacoes()">CLique para exibir as informações</button>
+    <button onclick="conta()">CLique para exibir a soma</button>
+
+    <script>
+        
+        function informacoes(){
+        let varNome = 'Erick';
+        let varIdade = '20 anos'
+        alert("nome: " + varNome + " idade: " + varIdade)
+    }
+    function conta(){    
+    let varA = 10
+        let varB = 20
+        let soma = prompt(varA + varB)
+        alert("a soma dos valores é: " + soma)
+    }
+        </script>
+
+</body>
+</html>
